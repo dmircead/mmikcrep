@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the taxonomie carte feature.
+ */
+
+include_once 'taxonomie_carte.features.inc';

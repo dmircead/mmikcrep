@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the cartefeature feature.
+ */
+
+include_once 'cartefeature.features.inc';
