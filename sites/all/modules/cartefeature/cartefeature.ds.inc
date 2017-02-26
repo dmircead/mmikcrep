@@ -62,5 +62,39 @@ function cartefeature_ds_layout_settings_info() {
   );
   $export['commerce_product|carte|node_full'] = $ds_layout;
 
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'commerce_product|carte|node_teaser';
+  $ds_layout->entity_type = 'commerce_product';
+  $ds_layout->bundle = 'carte';
+  $ds_layout->view_mode = 'node_teaser';
+  $ds_layout->layout = 'ds_2col_fluid';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'left' => array(
+        0 => 'sku',
+        1 => 'commerce_price',
+        2 => 'status',
+      ),
+    ),
+    'fields' => array(
+      'sku' => 'left',
+      'commerce_price' => 'left',
+      'status' => 'left',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'left' => 'div',
+      'right' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['commerce_product|carte|node_teaser'] = $ds_layout;
+
   return $export;
 }
