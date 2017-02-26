@@ -228,6 +228,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 6,
       ),
+      'node_product_list' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
       'node_teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -300,6 +307,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 2,
       ),
+      'node_product_list' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
       'node_teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -362,6 +376,16 @@ function cartefeature_field_default_field_instances() {
         'weight' => 0,
       ),
       'node_full' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+      'node_product_list' => array(
         'label' => 'above',
         'module' => 'image',
         'settings' => array(
@@ -449,6 +473,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 4,
       ),
+      'node_product_list' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
       'node_teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -514,6 +545,13 @@ function cartefeature_field_default_field_instances() {
         'weight' => 0,
       ),
       'node_full' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 5,
+      ),
+      'node_product_list' => array(
         'label' => 'above',
         'module' => 'list',
         'settings' => array(),
@@ -597,6 +635,18 @@ function cartefeature_field_default_field_instances() {
         'type' => 'number_integer',
         'weight' => 3,
       ),
+      'node_product_list' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => '',
+        ),
+        'type' => 'number_integer',
+        'weight' => 3,
+      ),
       'node_teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -658,6 +708,13 @@ function cartefeature_field_default_field_instances() {
         'weight' => 0,
       ),
       'node_full' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'node_product_list' => array(
         'label' => 'above',
         'module' => 'text',
         'settings' => array(),
