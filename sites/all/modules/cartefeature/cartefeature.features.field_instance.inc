@@ -121,7 +121,7 @@ function cartefeature_field_default_field_instances() {
           'calculation' => 'calculated_sell_price',
         ),
         'type' => 'commerce_price_formatted_amount',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'node_product_list' => array(
         'label' => 'hidden',
@@ -233,7 +233,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 8,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -319,7 +319,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -407,7 +407,7 @@ function cartefeature_field_default_field_instances() {
           'image_style' => '',
         ),
         'type' => 'image',
-        'weight' => 1,
+        'weight' => 9,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -502,7 +502,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -587,7 +587,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 5,
+        'weight' => 6,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -683,7 +683,7 @@ function cartefeature_field_default_field_instances() {
           'thousand_separator' => '',
         ),
         'type' => 'number_integer',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -769,7 +769,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
       'node_product_list' => array(
         'label' => 'above',
