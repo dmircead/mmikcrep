@@ -208,6 +208,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -287,6 +294,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -358,6 +372,16 @@ function cartefeature_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
+      ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 1,
       ),
       'default' => array(
         'label' => 'above',
@@ -453,6 +477,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
@@ -531,6 +562,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 5,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'list',
@@ -604,6 +642,18 @@ function cartefeature_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
+      ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => '',
+        ),
+        'type' => 'number_integer',
+        'weight' => 3,
       ),
       'default' => array(
         'label' => 'above',
@@ -692,6 +742,13 @@ function cartefeature_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'commerce_line_item_display' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
         'weight' => 0,
       ),
       'default' => array(
