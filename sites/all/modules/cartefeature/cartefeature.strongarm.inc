@@ -21,14 +21,14 @@ function cartefeature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_carte';
-  $strongarm->value = '2';
+  $strongarm->value = '0';
   $export['comment_carte'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_default_mode_carte';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['comment_default_mode_carte'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -42,21 +42,21 @@ function cartefeature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_form_location_carte';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['comment_form_location_carte'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_preview_carte';
-  $strongarm->value = '1';
+  $strongarm->value = '0';
   $export['comment_preview_carte'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_subject_field_carte';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['comment_subject_field_carte'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -85,14 +85,147 @@ function cartefeature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__carte';
   $strongarm->value = array(
-    'view_modes' => array(),
+    'view_modes' => array(
+      'full' => array(
+        'custom_settings' => TRUE,
+      ),
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'product_list' => array(
+        'custom_settings' => TRUE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+      'revision' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
     'extra_fields' => array(
       'form' => array(
         'path' => array(
           'weight' => '30',
         ),
       ),
-      'display' => array(),
+      'display' => array(
+        'product:sku' => array(
+          'default' => array(
+            'weight' => '-10',
+            'visible' => FALSE,
+          ),
+          'full' => array(
+            'weight' => '15',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:title' => array(
+          'default' => array(
+            'weight' => '-5',
+            'visible' => FALSE,
+          ),
+          'full' => array(
+            'weight' => '16',
+            'visible' => FALSE,
+          ),
+        ),
+        'product:status' => array(
+          'default' => array(
+            'weight' => '5',
+            'visible' => FALSE,
+          ),
+          'full' => array(
+            'weight' => '24',
+            'visible' => FALSE,
+          ),
+        ),
+        'product:title_field' => array(
+          'default' => array(
+            'weight' => '-5',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '1',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:commerce_price' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '2',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:field_imagine_carte' => array(
+          'default' => array(
+            'weight' => '36',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '14',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:field_format_carte' => array(
+          'default' => array(
+            'weight' => '37',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '10',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:field_nr_pag_carte' => array(
+          'default' => array(
+            'weight' => '38',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '11',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:field_isbn' => array(
+          'default' => array(
+            'weight' => '39',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '12',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:field_legare_carte' => array(
+          'default' => array(
+            'weight' => '40',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '13',
+            'visible' => TRUE,
+          ),
+        ),
+        'product:field_despre_carte' => array(
+          'default' => array(
+            'weight' => '41',
+            'visible' => TRUE,
+          ),
+          'full' => array(
+            'weight' => '9',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
     ),
   );
   $export['field_bundle_settings_node__carte'] = $strongarm;
