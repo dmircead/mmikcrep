@@ -1896,18 +1896,6 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'url_alias' => array(),
   );
   $terms[] = array(
-    'name' => 'ss',
-    'description' => NULL,
-    'format' => NULL,
-    'weight' => 0,
-    'uuid' => 'c8119c97-392f-40e0-a664-69c2a0b048af',
-    'vocabulary_machine_name' => 'autor',
-    'field_image_autor' => array(),
-    'field_link_autor' => array(),
-    'field_social_autor' => array(),
-    'url_alias' => array(),
-  );
-  $terms[] = array(
     'name' => 'Poezii',
     'description' => '',
     'format' => 'filtered_html',
