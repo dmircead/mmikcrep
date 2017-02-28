@@ -827,6 +827,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'taxonomy_term_reference_link',
         'weight' => 4,
       ),
+      'full' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 4,
+      ),
       'product_list' => array(
         'label' => 'above',
         'settings' => array(),
@@ -873,6 +880,13 @@ function cartefeature_field_default_field_instances() {
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 6,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 7,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -921,6 +935,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'taxonomy_term_reference_link',
         'weight' => 5,
       ),
+      'full' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 6,
+      ),
       'product_list' => array(
         'label' => 'above',
         'settings' => array(),
@@ -964,7 +985,6 @@ function cartefeature_field_default_field_instances() {
         'label' => 'above',
         'module' => 'commerce_cart',
         'settings' => array(
-          'attributes_single' => 1,
           'combine' => 1,
           'default_quantity' => 1,
           'line_item_type' => 'product',
@@ -1043,6 +1063,13 @@ function cartefeature_field_default_field_instances() {
         'type' => 'taxonomy_term_reference_link',
         'weight' => 7,
       ),
+      'full' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 8,
+      ),
       'product_list' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1093,6 +1120,17 @@ function cartefeature_field_default_field_instances() {
         ),
         'type' => 'title_linked',
         'weight' => -20,
+      ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'title',
+        'settings' => array(
+          'title_class' => '',
+          'title_link' => 'content',
+          'title_style' => '',
+        ),
+        'type' => 'title_linked',
+        'weight' => 0,
       ),
       'product_list' => array(
         'label' => 'hidden',
