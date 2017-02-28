@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feedscarte feature.
+ */
+
+include_once 'feedscarte.features.inc';

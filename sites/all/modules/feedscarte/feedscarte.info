@@ -1,0 +1,10 @@
+name = feedscarte
+core = 7.x
+package = Feeds
+dependencies[] = commerce_feeds
+dependencies[] = ctools
+dependencies[] = feeds
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:2
+features[feeds_importer][] = cartedispalyimport
+features[feeds_importer][] = carteimporter
