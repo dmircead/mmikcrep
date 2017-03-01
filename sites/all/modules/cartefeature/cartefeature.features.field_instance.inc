@@ -115,7 +115,7 @@ function cartefeature_field_default_field_instances() {
         'weight' => 0,
       ),
       'node_full' => array(
-        'label' => 'hidden',
+        'label' => 'inline',
         'module' => 'commerce_price',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
@@ -233,7 +233,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 10,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -319,7 +319,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 5,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -407,7 +407,7 @@ function cartefeature_field_default_field_instances() {
           'image_style' => 'product_medium',
         ),
         'type' => 'image',
-        'weight' => 9,
+        'weight' => 11,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -502,7 +502,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 7,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -587,7 +587,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 6,
+        'weight' => 8,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -683,7 +683,7 @@ function cartefeature_field_default_field_instances() {
           'thousand_separator' => '',
         ),
         'type' => 'number_integer',
-        'weight' => 4,
+        'weight' => 6,
       ),
       'node_product_list' => array(
         'label' => 'above',
@@ -886,7 +886,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 7,
+        'weight' => 11,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -940,7 +940,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 6,
+        'weight' => 10,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1005,7 +1005,7 @@ function cartefeature_field_default_field_instances() {
           'show_single_product_attributes' => FALSE,
         ),
         'type' => 'commerce_cart_add_to_cart_form',
-        'weight' => 15,
+        'weight' => 9,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1067,7 +1067,7 @@ function cartefeature_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 19,
+        'weight' => 23,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1124,7 +1124,7 @@ function cartefeature_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 20,
+        'weight' => 24,
       ),
       'product_list' => array(
         'label' => 'hidden',
