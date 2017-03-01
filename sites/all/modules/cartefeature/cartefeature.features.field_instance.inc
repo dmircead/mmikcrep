@@ -116,20 +116,34 @@ function cartefeature_field_default_field_instances() {
       ),
       'node_full' => array(
         'label' => 'inline',
-        'module' => 'commerce_price',
+        'module' => 'commerce_price_savings_formatter',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'prices' => array(
+            'list' => 'list',
+            'price' => 'price',
+            'savings' => 'savings',
+          ),
+          'savings' => 'both',
+          'show_labels' => 1,
         ),
-        'type' => 'commerce_price_formatted_amount',
+        'type' => 'commerce_price_savings_formatter_formatter',
         'weight' => 2,
       ),
       'node_product_list' => array(
         'label' => 'hidden',
-        'module' => 'commerce_price',
+        'module' => 'commerce_price_savings_formatter',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'prices' => array(
+            0 => 'list',
+            1 => 'price',
+            2 => 'savings',
+          ),
+          'savings' => 'both',
+          'show_labels' => TRUE,
         ),
-        'type' => 'commerce_price_formatted_amount',
+        'type' => 'commerce_price_savings_formatter_formatter',
         'weight' => 0,
       ),
       'node_rss' => array(
@@ -886,7 +900,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 11,
+        'weight' => 8,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -940,7 +954,7 @@ function cartefeature_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 10,
+        'weight' => 7,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1005,7 +1019,7 @@ function cartefeature_field_default_field_instances() {
           'show_single_product_attributes' => FALSE,
         ),
         'type' => 'commerce_cart_add_to_cart_form',
-        'weight' => 9,
+        'weight' => 6,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1067,7 +1081,7 @@ function cartefeature_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 23,
+        'weight' => 20,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1124,7 +1138,7 @@ function cartefeature_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 24,
+        'weight' => 21,
       ),
       'product_list' => array(
         'label' => 'hidden',

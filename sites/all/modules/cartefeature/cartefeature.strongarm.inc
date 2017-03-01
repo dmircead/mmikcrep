@@ -305,6 +305,9 @@ function cartefeature_strongarm() {
     'group_desprecartefg|node|carte|full' => FALSE,
     'group_aceeasicategfg|node|carte|full' => FALSE,
     'group_instocds|node|carte|full' => TRUE,
+    'group_pricegroupds|node|carte|full' => FALSE,
+    'group_pricetabds|node|carte|full' => FALSE,
+    'group_currencyselectabds|node|carte|full' => FALSE,
   );
   $export['default_field_group'] = $strongarm;
 
@@ -370,7 +373,7 @@ function cartefeature_strongarm() {
             'visible' => FALSE,
           ),
           'full' => array(
-            'weight' => '14',
+            'weight' => '11',
             'visible' => TRUE,
           ),
         ),
@@ -380,7 +383,7 @@ function cartefeature_strongarm() {
             'visible' => FALSE,
           ),
           'full' => array(
-            'weight' => '25',
+            'weight' => '22',
             'visible' => FALSE,
           ),
         ),
@@ -410,7 +413,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '4',
+            'weight' => '5',
             'visible' => TRUE,
           ),
         ),
