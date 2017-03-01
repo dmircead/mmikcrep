@@ -43,7 +43,7 @@ function cartefeature_field_group_info() {
   $field_group->entity_type = 'node';
   $field_group->bundle = 'carte';
   $field_group->mode = 'full';
-  $field_group->parent_name = 'group_pricetabds';
+  $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'currencyselectabds',
     'weight' => '6',
@@ -192,7 +192,6 @@ function cartefeature_field_group_info() {
     'weight' => '4',
     'children' => array(
       0 => 'product:commerce_price',
-      1 => 'group_currencyselectabds',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
