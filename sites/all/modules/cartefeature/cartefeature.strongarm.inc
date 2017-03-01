@@ -131,8 +131,8 @@ function cartefeature_strongarm() {
             'visible' => FALSE,
           ),
           'full' => array(
-            'weight' => '16',
-            'visible' => FALSE,
+            'weight' => '23',
+            'visible' => TRUE,
           ),
         ),
         'product:status' => array(
@@ -142,7 +142,7 @@ function cartefeature_strongarm() {
           ),
           'full' => array(
             'weight' => '24',
-            'visible' => FALSE,
+            'visible' => TRUE,
           ),
         ),
         'product:title_field' => array(
@@ -171,7 +171,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '14',
+            'weight' => '13',
             'visible' => TRUE,
           ),
         ),
@@ -211,7 +211,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '13',
+            'weight' => '14',
             'visible' => TRUE,
           ),
         ),
