@@ -17,13 +17,38 @@ function cartefeature_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'carte';
   $ds_fieldsetting->view_mode = 'full';
   $ds_fieldsetting->settings = array(
-    'comments' => array(
-      'weight' => '3',
+    'currencyselectords' => array(
+      'weight' => '5',
       'label' => 'hidden',
       'format' => 'default',
     ),
   );
   $export['node|carte|full'] = $ds_fieldsetting;
+
+  return $export;
+}
+
+/**
+ * Implements hook_ds_custom_fields_info().
+ */
+function cartefeature_ds_custom_fields_info() {
+  $export = array();
+
+  $ds_field = new stdClass();
+  $ds_field->api_version = 1;
+  $ds_field->field = 'currencyselectords';
+  $ds_field->label = 'CurrencySelectorDs';
+  $ds_field->field_type = 6;
+  $ds_field->entities = array(
+    'node' => 'node',
+    'commerce_product' => 'commerce_product',
+  );
+  $ds_field->ui_limit = '';
+  $ds_field->properties = array(
+    'block' => 'commerce_multicurrency|currency_selector',
+    'block_render' => '1',
+  );
+  $export['currencyselectords'] = $ds_field;
 
   return $export;
 }
@@ -138,24 +163,28 @@ function cartefeature_ds_layout_settings_info() {
       ),
       'middle' => array(
         3 => 'product:status',
-        13 => 'product:commerce_price',
-        14 => 'field_product',
+        4 => 'product:commerce_price',
+        5 => 'currencyselectords',
+        6 => 'product:commerce_price_ron',
+        7 => 'product:commerce_price_usd',
+        8 => 'product:commerce_price_eur',
+        10 => 'field_product',
       ),
       'right' => array(
-        4 => 'field_editura_carte',
-        5 => 'field_categorie_carte',
-        6 => 'group_date_carte_ds',
-        8 => 'product:field_nr_pag_carte',
-        9 => 'product:field_format_carte',
-        11 => 'product:field_legare_carte',
-        12 => 'product:field_isbn',
+        9 => 'product:field_nr_pag_carte',
+        11 => 'field_editura_carte',
+        12 => 'product:field_format_carte',
+        13 => 'product:field_legare_carte',
+        14 => 'field_categorie_carte',
+        15 => 'product:field_isbn',
+        16 => 'group_date_carte_ds',
       ),
       'footer' => array(
-        7 => 'group_footercartefg',
-        10 => 'product:sku',
-        15 => 'group_desprecartefg',
-        16 => 'product:field_despre_carte',
-        17 => 'group_aceeasicategfg',
+        17 => 'group_footercartefg',
+        18 => 'product:sku',
+        19 => 'group_desprecartefg',
+        20 => 'group_aceeasicategfg',
+        21 => 'product:field_despre_carte',
       ),
     ),
     'fields' => array(
@@ -163,20 +192,24 @@ function cartefeature_ds_layout_settings_info() {
       'field_autor_carte' => 'header',
       'product:field_imagine_carte' => 'left',
       'product:status' => 'middle',
+      'product:commerce_price' => 'middle',
+      'currencyselectords' => 'middle',
+      'product:commerce_price_ron' => 'middle',
+      'product:commerce_price_usd' => 'middle',
+      'product:commerce_price_eur' => 'middle',
+      'product:field_nr_pag_carte' => 'right',
+      'field_product' => 'middle',
       'field_editura_carte' => 'right',
+      'product:field_format_carte' => 'right',
+      'product:field_legare_carte' => 'right',
       'field_categorie_carte' => 'right',
+      'product:field_isbn' => 'right',
       'group_date_carte_ds' => 'right',
       'group_footercartefg' => 'footer',
-      'product:field_nr_pag_carte' => 'right',
-      'product:field_format_carte' => 'right',
       'product:sku' => 'footer',
-      'product:field_legare_carte' => 'right',
-      'product:field_isbn' => 'right',
-      'product:commerce_price' => 'middle',
-      'field_product' => 'middle',
       'group_desprecartefg' => 'footer',
-      'product:field_despre_carte' => 'footer',
       'group_aceeasicategfg' => 'footer',
+      'product:field_despre_carte' => 'footer',
     ),
     'classes' => array(),
     'wrappers' => array(
