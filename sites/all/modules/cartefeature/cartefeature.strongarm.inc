@@ -121,7 +121,7 @@ function cartefeature_strongarm() {
             'visible' => FALSE,
           ),
           'full' => array(
-            'weight' => '15',
+            'weight' => '10',
             'visible' => TRUE,
           ),
         ),
@@ -131,8 +131,8 @@ function cartefeature_strongarm() {
             'visible' => FALSE,
           ),
           'full' => array(
-            'weight' => '23',
-            'visible' => TRUE,
+            'weight' => '21',
+            'visible' => FALSE,
           ),
         ),
         'product:status' => array(
@@ -141,7 +141,7 @@ function cartefeature_strongarm() {
             'visible' => FALSE,
           ),
           'full' => array(
-            'weight' => '24',
+            'weight' => '5',
             'visible' => TRUE,
           ),
         ),
@@ -151,7 +151,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '1',
+            'weight' => '0',
             'visible' => TRUE,
           ),
         ),
@@ -161,7 +161,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '2',
+            'weight' => '14',
             'visible' => TRUE,
           ),
         ),
@@ -171,7 +171,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '13',
+            'weight' => '2',
             'visible' => TRUE,
           ),
         ),
@@ -191,7 +191,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '11',
+            'weight' => '9',
             'visible' => TRUE,
           ),
         ),
@@ -211,7 +211,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '14',
+            'weight' => '11',
             'visible' => TRUE,
           ),
         ),
@@ -221,7 +221,7 @@ function cartefeature_strongarm() {
             'visible' => TRUE,
           ),
           'full' => array(
-            'weight' => '9',
+            'weight' => '23',
             'visible' => TRUE,
           ),
         ),

@@ -403,8 +403,8 @@ function cartefeature_field_default_field_instances() {
         'label' => 'above',
         'module' => 'image',
         'settings' => array(
-          'image_link' => '',
-          'image_style' => '',
+          'image_link' => 'file',
+          'image_style' => 'product_medium',
         ),
         'type' => 'image',
         'weight' => 9,
@@ -440,9 +440,9 @@ function cartefeature_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'file_directory' => '',
+      'file_directory' => 'sites/default/files/mmi/pozecarte',
       'file_extensions' => 'png gif jpg jpeg',
-      'max_filesize' => '',
+      'max_filesize' => '10MB',
       'max_resolution' => '',
       'min_resolution' => '',
       'title_field' => 0,
@@ -828,11 +828,11 @@ function cartefeature_field_default_field_instances() {
         'weight' => 4,
       ),
       'full' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 4,
+        'weight' => 1,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -882,7 +882,7 @@ function cartefeature_field_default_field_instances() {
         'weight' => 6,
       ),
       'full' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
@@ -936,7 +936,7 @@ function cartefeature_field_default_field_instances() {
         'weight' => 5,
       ),
       'full' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
@@ -1005,7 +1005,7 @@ function cartefeature_field_default_field_instances() {
           'show_single_product_attributes' => FALSE,
         ),
         'type' => 'commerce_cart_add_to_cart_form',
-        'weight' => 5,
+        'weight' => 15,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1065,10 +1065,9 @@ function cartefeature_field_default_field_instances() {
       ),
       'full' => array(
         'label' => 'above',
-        'module' => 'taxonomy',
         'settings' => array(),
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 8,
+        'type' => 'hidden',
+        'weight' => 19,
       ),
       'product_list' => array(
         'label' => 'above',
@@ -1123,14 +1122,9 @@ function cartefeature_field_default_field_instances() {
       ),
       'full' => array(
         'label' => 'hidden',
-        'module' => 'title',
-        'settings' => array(
-          'title_class' => '',
-          'title_link' => 'content',
-          'title_style' => '',
-        ),
-        'type' => 'title_linked',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 20,
       ),
       'product_list' => array(
         'label' => 'hidden',
