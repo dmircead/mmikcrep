@@ -20,7 +20,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/parinti',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'martiri',
@@ -32,7 +37,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/martiri',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'formarea caracterului',
@@ -44,7 +54,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/formarea-caracterului',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Viata spirituala',
@@ -56,7 +71,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/viata-spirituala',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'profetie',
@@ -68,7 +88,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/profetie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Nathan Whitaker',
@@ -91,7 +116,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/nathan-whitaker',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Lidia Crisan',
@@ -106,7 +136,12 @@ function taxonomie_carte_uuid_features_default_terms() {
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/lidia-crisan',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'David M. Gower',
@@ -122,7 +157,12 @@ Impreuna cu sotia sa, Alice Anne si cei doi copii, Christine Anne si David Mark,
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/david-m-gower',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'studiu personal',
@@ -134,7 +174,12 @@ Impreuna cu sotia sa, Alice Anne si cei doi copii, Christine Anne si David Mark,
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/studiu-personal',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'filosofie',
@@ -146,7 +191,12 @@ Impreuna cu sotia sa, Alice Anne si cei doi copii, Christine Anne si David Mark,
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/filosofie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'abuz',
@@ -158,7 +208,12 @@ Impreuna cu sotia sa, Alice Anne si cei doi copii, Christine Anne si David Mark,
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/abuz',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Gary Thomas',
@@ -205,7 +260,12 @@ Impreuna cu sotia sa, Alice Anne si cei doi copii, Christine Anne si David Mark,
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/gary-thomas',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Multimedia International',
@@ -219,7 +279,12 @@ Impreuna cu sotia sa, Alice Anne si cei doi copii, Christine Anne si David Mark,
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'editura/multimedia-international',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Chris Hodges',
@@ -266,7 +331,12 @@ Chris are pasiunea profundă de a forma lideri şi de a planta biserici. A fost 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/chris-hodges',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'casnicie',
@@ -278,7 +348,12 @@ Chris are pasiunea profundă de a forma lideri şi de a planta biserici. A fost 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/casnicie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'James Dobson',
@@ -324,7 +399,12 @@ Chris are pasiunea profundă de a forma lideri şi de a planta biserici. A fost 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/james-dobson',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Sorin Dumitru Cigher',
@@ -365,7 +445,12 @@ Este căsătorit cu Daniela și au împreună patru copii: Darius, Sara, Natalia
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/sorin-dumitru-cigher',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'marturii',
@@ -377,7 +462,12 @@ Este căsătorit cu Daniela și au împreună patru copii: Darius, Sara, Natalia
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/marturii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'cuvinte intelepte',
@@ -389,7 +479,12 @@ Este căsătorit cu Daniela și au împreună patru copii: Darius, Sara, Natalia
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/cuvinte-intelepte',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'biserica',
@@ -401,7 +496,12 @@ Este căsătorit cu Daniela și au împreună patru copii: Darius, Sara, Natalia
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/biserica',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Dan B. Allender',
@@ -447,7 +547,12 @@ Este căsătorit cu Daniela și au împreună patru copii: Darius, Sara, Natalia
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/dan-b-allender',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Sheri Rose Shepherd',
@@ -488,7 +593,12 @@ Este căsătorit cu Daniela și au împreună patru copii: Darius, Sara, Natalia
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/sheri-rose-shepherd',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Traian Dorz',
@@ -533,7 +643,12 @@ Fiind singurul copil la părinţi, aceştia voiau să-l vadă ajungând un bun g
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/traian-dorz',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Tremper Longman',
@@ -574,7 +689,12 @@ Fiind singurul copil la părinţi, aceştia voiau să-l vadă ajungând un bun g
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/tremper-longman',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'duhul sfant',
@@ -586,7 +706,12 @@ Fiind singurul copil la părinţi, aceştia voiau să-l vadă ajungând un bun g
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/duhul-sfant',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Doru Popescu',
@@ -601,7 +726,12 @@ Fiind singurul copil la părinţi, aceştia voiau să-l vadă ajungând un bun g
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/doru-popescu',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Charles Stanley',
@@ -653,7 +783,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/charles-stanley',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'rugaciune',
@@ -665,7 +800,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/rugaciune',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Robert Van Kampen',
@@ -688,7 +828,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/robert-van-kampen',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'rusine',
@@ -700,7 +845,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/rusine',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'schite predici',
@@ -712,7 +862,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/schite-predici',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'stres',
@@ -724,7 +879,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/stres',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'studiu biblic',
@@ -736,7 +896,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/studiu-biblic',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'crestere copii',
@@ -748,7 +913,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/crestere-copii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'lecturi motivationale',
@@ -760,7 +930,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/lecturi-motivationale',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Lisa Wingate',
@@ -783,7 +958,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/lisa-wingate',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'calauzire',
@@ -795,7 +975,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/calauzire',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'revolutie',
@@ -807,7 +992,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/revolutie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'intrebari',
@@ -819,7 +1009,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/intrebari',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'escatologie',
@@ -831,7 +1026,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/escatologie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'munca',
@@ -843,7 +1043,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/munca',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Deznan Mircea',
@@ -921,7 +1126,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/david-platt',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'chemarea ta',
@@ -933,7 +1143,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/chemarea-ta',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'experiente personale cu Dumnezeu',
@@ -945,7 +1160,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/experiente-personale-cu-dumnezeu',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Ioan Alexandru Lapugeanu',
@@ -978,7 +1198,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/ioan-alexandru-lapugeanu',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'leadership',
@@ -990,7 +1215,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/leadership',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Viorel Iuga',
@@ -1031,7 +1261,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/viorel-iuga',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Sarah Young',
@@ -1073,7 +1308,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/sarah-young',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Roman',
@@ -1085,7 +1325,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/roman',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Iosif Anca',
@@ -1118,7 +1363,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/iosif-anca',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Ion Beg',
@@ -1133,7 +1383,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/ion-beg',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'rapire',
@@ -1145,7 +1400,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/rapire',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Peter Master',
@@ -1191,7 +1451,12 @@ God (Cum să asculți de Dumnezeu).',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/peter-master',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Tommy Newberry',
@@ -1244,7 +1509,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/tommy-newberry',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Adina Sas Simoniak',
@@ -1287,7 +1557,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/adina-sas-simoniak',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'experiente de viata',
@@ -1299,7 +1574,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/experiente-de-viata',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Randy Alcorn',
@@ -1345,7 +1625,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/randy-alcorn',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'MATTHEW BARNETT',
@@ -1391,7 +1676,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/matthew-barnett',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Mircea Deznan',
@@ -1403,7 +1693,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'field_image_autor' => array(),
     'field_link_autor' => array(),
     'field_social_autor' => array(),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/mircea-deznan',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'stil de viata',
@@ -1415,7 +1710,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/stil-de-viata',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'consiliere',
@@ -1427,7 +1727,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/consiliere',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Daniel Branzei',
@@ -1460,7 +1765,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/daniel-branzei',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Editura Ramira',
@@ -1474,7 +1784,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'editura/editura-ramira',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'perioade grele',
@@ -1486,7 +1801,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/perioade-grele',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'daruri',
@@ -1498,7 +1818,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/daruri',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'conducere',
@@ -1510,7 +1835,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/conducere',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'relatii',
@@ -1522,7 +1852,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/relatii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Leadership',
@@ -1534,7 +1869,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/leadership',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'devotionale',
@@ -1546,7 +1886,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/devotionale',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Tony Dungy',
@@ -1595,7 +1940,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/tony-dungy',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Teologie',
@@ -1607,7 +1957,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/teologie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Victor Kloes',
@@ -1622,7 +1977,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/victor-kloes',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'versuri',
@@ -1634,7 +1994,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/versuri',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Casatorie',
@@ -1646,7 +2011,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/casatorie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'relatii tineri',
@@ -1658,7 +2028,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/relatii-tineri',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'lupta spirituala',
@@ -1670,7 +2045,12 @@ fiind traduse în mai multe limbi. Tommy locuieste în Atlanta
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/lupta-spirituala',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Ap Verwaijen',
@@ -1714,7 +2094,12 @@ Ap și Anita au doi copii căsătoriți, o fată și un băiat, care la rândul 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/ap-verwaijen',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Noua Speranta',
@@ -1736,7 +2121,12 @@ Ap și Anita au doi copii căsătoriți, o fată și un băiat, care la rândul 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'editura/noua-speranta',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Marturii',
@@ -1748,7 +2138,12 @@ Ap și Anita au doi copii căsătoriți, o fată și un băiat, care la rândul 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/marturii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Fundatia E.B.E.',
@@ -1771,7 +2166,12 @@ Ap și Anita au doi copii căsătoriți, o fată și un băiat, care la rândul 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/fundatia-ebe',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Marilyn Hontz',
@@ -1812,7 +2212,12 @@ Ap și Anita au doi copii căsătoriți, o fată și un băiat, care la rândul 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/marilyn-hontz',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'oameni dificili',
@@ -1824,7 +2229,12 @@ Ap și Anita au doi copii căsătoriți, o fată și un băiat, care la rândul 
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/oameni-dificili',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Petru Dugulescu',
@@ -1871,7 +2281,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/petru-dugulescu',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Traian Dorz',
@@ -1893,7 +2308,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'editura/traian-dorz',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Poezii',
@@ -1905,7 +2325,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/poezii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Florica Muscan',
@@ -1920,7 +2345,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/florica-muscan',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'etica',
@@ -1932,7 +2362,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/etica',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'viata fericita',
@@ -1944,7 +2379,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/viata-fericita',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'sanatate',
@@ -1956,7 +2396,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/sanatate',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Predici',
@@ -1968,7 +2413,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/predici',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Imago Dei',
@@ -1990,7 +2440,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'editura/imago-dei',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'biografii',
@@ -2002,7 +2457,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/biografii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'femei',
@@ -2014,7 +2474,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/femei',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'homiletica',
@@ -2026,7 +2491,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/homiletica',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'meditatii',
@@ -2038,7 +2508,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/meditatii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Beth Moore',
@@ -2084,7 +2559,12 @@ Dupa recenta promulgata Lege a Cultelor din Romania, am organizat un mars de pro
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/beth-moore',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Perry Noble',
@@ -2132,7 +2612,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/perry-noble',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'apostolul pavel',
@@ -2144,7 +2629,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/apostolul-pavel',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'nesiguranta',
@@ -2156,7 +2646,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/nesiguranta',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'baieti',
@@ -2168,7 +2663,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/baieti',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Viorel Atudoroae',
@@ -2191,7 +2691,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'autor/viorel-atudoroae',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'potential',
@@ -2203,7 +2708,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/potential',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'Familie',
@@ -2215,7 +2725,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'categorii-carte/familie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'afaceri',
@@ -2227,7 +2742,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/afaceri',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'traume',
@@ -2239,7 +2759,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/traume',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'adictii',
@@ -2251,7 +2776,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/adictii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'istoria bisericii',
@@ -2263,7 +2793,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/istoria-bisericii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'familie',
@@ -2275,7 +2810,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/familie',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'copii',
@@ -2287,7 +2827,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/copii',
+        'language' => 'und',
+      ),
+    ),
   );
   $terms[] = array(
     'name' => 'dependente',
@@ -2299,7 +2844,12 @@ din mii de oameni. Perry ºi soþia lui, Lucretia, au o fiicã, Charisse.',
     'path' => array(
       'pathauto' => 1,
     ),
-    'url_alias' => array(),
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tematici/dependente',
+        'language' => 'und',
+      ),
+    ),
   );
   return $terms;
 }
