@@ -1,6 +1,7 @@
 name = cartefeature
 core = 7.x
 package = produse
+dependencies[] = commerce_autosku
 dependencies[] = commerce_cart
 dependencies[] = commerce_features
 dependencies[] = commerce_kickstart_lite_product
@@ -24,6 +25,7 @@ dependencies[] = title
 dependencies[] = uuid
 dependencies[] = uuid_features
 features[commerce_product_type][] = carte
+features[ctools][] = commerce_autosku:autosku_pattern:1
 features[ctools][] = ds:ds:1
 features[ctools][] = field_group:field_group:1
 features[ctools][] = strongarm:strongarm:1

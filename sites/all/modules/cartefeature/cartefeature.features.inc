@@ -24,6 +24,9 @@ function cartefeature_commerce_product_default_types() {
  * Implements hook_ctools_plugin_api().
  */
 function cartefeature_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "commerce_autosku" && $api == "autosku_pattern") {
+    return array("version" => "1");
+  }
   if ($module == "ds" && $api == "ds") {
     return array("version" => "1");
   }
